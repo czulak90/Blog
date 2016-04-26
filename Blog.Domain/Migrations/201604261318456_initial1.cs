@@ -1,0 +1,18 @@
+namespace Blog.Domain.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class initial1 : DbMigration
+    {
+        public override void Up()
+        {
+            AlterColumn("dbo.AspNetUsers", "CreateDate", c => c.DateTime());
+        }
+        
+        public override void Down()
+        {
+            AlterColumn("dbo.AspNetUsers", "CreateDate", c => c.DateTime(nullable: false));
+        }
+    }
+}
