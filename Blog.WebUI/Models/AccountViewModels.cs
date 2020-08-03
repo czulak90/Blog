@@ -60,6 +60,9 @@ namespace Blog.WebUI.Models
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
+        1
+        2
+        3
     }
 
     public class RegisterViewModel
