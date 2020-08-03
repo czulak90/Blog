@@ -7,7 +7,7 @@ namespace Blog.WebUI.Models
 {
     public class IndexViewModel
     {
-        public  HasPassword { get; set; }
+        bool HasPassword { get; set; }
         public IList<UserLoginInfo> Logins { get; set; }
         public string PhoneNumber { get; set; }
         public bool TwoFactor { get; set; }
