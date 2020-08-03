@@ -60,7 +60,7 @@ namespace Blog.WebUI.Models
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
-        1
+        4
         2
         5
     }
