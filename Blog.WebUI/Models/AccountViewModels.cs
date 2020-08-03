@@ -62,7 +62,7 @@ namespace Blog.WebUI.Models
         public bool RememberMe { get; set; }
         4
         2
-        3
+        
     }
 
     public class RegisterViewModel
