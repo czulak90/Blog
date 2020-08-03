@@ -41,14 +41,14 @@ namespace Blog.WebUI.Models
 
     public class ForgotViewModel
     {
-        [Required]
+        
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
 
     public class LoginViewModel
     {
-        [Required]
+        
         [Display(Name = "Email")]
         [EmailAddress]
         public string Email { get; set; }
@@ -62,7 +62,7 @@ namespace Blog.WebUI.Models
         public bool RememberMe { get; set; }
         4
         2
-        
+        5
     }
 
     public class RegisterViewModel
